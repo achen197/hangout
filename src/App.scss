@@ -1,0 +1,15 @@
+.MainContainer {
+  min-height: 100vh;
+  background: #FFF;
+}
+
+.BodyContainer {
+  display: inline-flex;
+}
+
+/* body {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "form calendar";
+}
+ */

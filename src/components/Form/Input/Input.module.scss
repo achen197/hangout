@@ -1,0 +1,22 @@
+.TextInput {
+  input {
+    font-family: sofia-pro-soft, sans-serif;
+    border: none;
+    padding: 0.75rem 0.5rem;
+    border-radius: 8px;
+    width: 25rem;
+    font-weight: 300;
+
+    &::placeholder {
+      color: #8e8e9d;
+      font-size: 0.9rem;
+    }
+  }
+
+  label p {
+    font-size: 0.9rem;
+    color: #303047;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+}
