@@ -1,0 +1,8 @@
+C:\Dev\hangout\src\hangout.Domain\bin\Debug\netcoreapp3.0\hangout.Domain.deps.json
+C:\Dev\hangout\src\hangout.Domain\bin\Debug\netcoreapp3.0\hangout.Domain.dll
+C:\Dev\hangout\src\hangout.Domain\bin\Debug\netcoreapp3.0\hangout.Domain.pdb
+C:\Dev\hangout\src\hangout.Domain\obj\Debug\netcoreapp3.0\hangout.Domain.csprojAssemblyReference.cache
+C:\Dev\hangout\src\hangout.Domain\obj\Debug\netcoreapp3.0\hangout.Domain.AssemblyInfoInputs.cache
+C:\Dev\hangout\src\hangout.Domain\obj\Debug\netcoreapp3.0\hangout.Domain.AssemblyInfo.cs
+C:\Dev\hangout\src\hangout.Domain\obj\Debug\netcoreapp3.0\hangout.Domain.dll
+C:\Dev\hangout\src\hangout.Domain\obj\Debug\netcoreapp3.0\hangout.Domain.pdb

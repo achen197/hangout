@@ -1,0 +1,11 @@
+C:\Dev\hangout\src\hangout.DbUp\obj\Debug\netcoreapp3.0\hangout.DbUp.csprojAssemblyReference.cache
+C:\Dev\hangout\src\hangout.DbUp\obj\Debug\netcoreapp3.0\hangout.DbUp.AssemblyInfoInputs.cache
+C:\Dev\hangout\src\hangout.DbUp\obj\Debug\netcoreapp3.0\hangout.DbUp.AssemblyInfo.cs
+C:\Dev\hangout\src\hangout.DbUp\bin\Debug\netcoreapp3.0\hangout.DbUp.exe
+C:\Dev\hangout\src\hangout.DbUp\bin\Debug\netcoreapp3.0\hangout.DbUp.deps.json
+C:\Dev\hangout\src\hangout.DbUp\bin\Debug\netcoreapp3.0\hangout.DbUp.runtimeconfig.json
+C:\Dev\hangout\src\hangout.DbUp\bin\Debug\netcoreapp3.0\hangout.DbUp.runtimeconfig.dev.json
+C:\Dev\hangout\src\hangout.DbUp\bin\Debug\netcoreapp3.0\hangout.DbUp.dll
+C:\Dev\hangout\src\hangout.DbUp\bin\Debug\netcoreapp3.0\hangout.DbUp.pdb
+C:\Dev\hangout\src\hangout.DbUp\obj\Debug\netcoreapp3.0\hangout.DbUp.dll
+C:\Dev\hangout\src\hangout.DbUp\obj\Debug\netcoreapp3.0\hangout.DbUp.pdb
