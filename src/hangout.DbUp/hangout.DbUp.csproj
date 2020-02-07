@@ -9,4 +9,9 @@
       <PackageReference Include="dbup" Version="4.3.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Scripts\0000001 - AddOrganisersTable.sql" />
+      <EmbeddedResource Include="Scripts\0000001 - AddOrganisersTable.sql" />
+    </ItemGroup>
+
 </Project>

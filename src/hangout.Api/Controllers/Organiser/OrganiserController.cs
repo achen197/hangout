@@ -1,5 +1,5 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using hangout.Domain;
 using Microsoft.AspNetCore.Mvc;
 
 namespace hangout.Api.Controllers
@@ -8,10 +8,16 @@ namespace hangout.Api.Controllers
     [Route("[controller]")]
     public class OrganiserController : ControllerBase
     {
-        [HttpGet]
-        public string Get()
+        private readonly HangoutDbContext _dbContext;
+
+        public OrganiserController(HangoutDbContext dbContext)
         {
-            return " ryan's butt";
+            _dbContext = dbContext;
+        }
+        [HttpGet]
+        public IEnumerable<Organiser> GetOrganisers()
+        {
+            return _dbContext.Organiser;
         }
 
         /*[HttpPost]
