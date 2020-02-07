@@ -42,7 +42,6 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="hangout.Domain.csproj" t="IncludeRecursive" />
         <e p="hangoutDbContext.cs" t="Include" />
-        <e p="IEntity.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">

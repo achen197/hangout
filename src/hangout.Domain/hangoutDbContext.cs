@@ -1,7 +1,7 @@
-﻿namespace hangout.Domain
-{
-    public class hangoutDbContext : DbContext
-    {
-        
-    }
-}
+﻿// namespace hangout.Domain
+// {
+//     public class hangoutDbContext : DbContext
+//     {
+//         
+//     }
+// }
