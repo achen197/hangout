@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using hangout.Domain;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,10 +22,18 @@ namespace hangout.Api.Controllers
             return _dbContext.Organiser;
         }
 
-        /*[HttpPost]
-        public async Task<IActionResult> Create(Guid organiserId, [FromBody] CreateOrganiserDto dto)
+        [HttpPost]
+        public async Task<IActionResult> Create(Guid organiserId, [FromBody] OrganiserDto dto)
         {
-            await 
-        }*/
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            
+            _dbContext.Organiser.Add(dto.MapToEntity());
+            await _dbContext.SaveChangesAsync();
+            return Ok(dto);
+
+        }
     }
 }

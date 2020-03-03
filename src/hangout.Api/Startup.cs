@@ -23,6 +23,15 @@ namespace hangout.Api
             services.AddControllers();
             services.AddDbContext<HangoutDbContext>(opt =>
                 opt.UseSqlServer(Configuration.GetConnectionString("dbconnection")));
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowAnyOrigin());
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,7 +43,7 @@ namespace hangout.Api
             }
 
             app.UseRouting();
-
+            app.UseCors("CorsPolicy");
             app.UseEndpoints(e => { e.MapControllers(); });
         }
     }
